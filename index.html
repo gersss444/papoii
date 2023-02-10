@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ParaMiMujerrr</title>
+    <style>
+        h1{
+            font-size: 40px;
+        }
+        h2{ 
+            font-size: 15px;
+        }
+
+    </style>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random()*(400-1) +1;
+                abajo = Math.random() * (609-1) +1;
+              $(this).css('top', arriba);
+              $(this).css('left', abajo);
+            });
+        });
+        
+    function dijoSi(){
+        document.getElementById('si').style.display = 'block';
+    }
+
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>¿ME EXTRAÑAS?</h1>
+            <div class="subtitulo">
+            <h3>Si logras picarle al NO, tienes iphone nuevo</h3>
+        </div>
+        <div class="opciones">
+            <p class="p1">No</p>
+            <p onclick="dijoSi()" class="p2">Si</p>
+            <div id="si">
+                <h2>No me extrañes corazón.
+                    Me diste la oportunidad de amarte, me diste el privilegio de ser tu pareja
+                     y de formar parte de tu vida, quisiera compartir mucho más tiempo contigo,
+                     eres para mi esa luna brillante tan bonita entre las estrellas,
+                     esa luna que todos nos sorprendemos por lo bonita que es.
+                     M encanta como m haces sentir, me encanta como siento cuando me miras, 
+                     me encanta como me siento cuando t veo a tus ojos tan lindos, 
+                     m encanta como siento cunado t veo sonreir, m gusta cuando estamos juntos, 
+                     haces q esté en paz porque es como si me abrazaras 
+                     y juntaras todas esas pequeñas partes rotas en mi,
+                    las unieras para que pueda seguir vivo, m encanta cuando hablas de cualquier cosa
+                     porque podría escucharte mil horas hablar y no cansarme ni por un momento de tu linda voz corazón.
+                     me encanta q seas tann única, tan tú, q cuando estas conmigo no tengas miedo de mostrarte como eres,
+                     así como yo puedo sentirme totalmente cómodo mostrandome como m siento y no tener q fingir(antes),
+                     ahora es diferente, ya no suelo mostrarme, quiero que tu seas la que ahora se muestre, quiero tomarte importancia en apoyar tus problemas,
+                     acompañarte cada vez que estes triste, enojada, agobiada si es posible, solo quiero sumar.
+                     tu presencia es tan cómoda para mi, enciendes todo en mi y en todos los sentidos,
+                     tienes tantas cosas que te hacen muy especial, se me viene el mundo encima cuando se trata de perderte
+                     o de aburrirte, me asusta te amo con toda mi alma, haz hecho las cosas tan bien para que yo te quiera como te quiero.
+                     enamorado estoy de ti, de tu forma de manejar las cosas, de seguir adelante aunque tengas situaciones complicadas, 
+                     no te rindas jamás amor mio, tu puedes con todo mi vida.
+                     tu mas q nadie merece sentirse bien, estar bien en todos los sentidos y lo vas a lograr, yo lo sé.
+                     quisiera ser la solución de tus problemas, lo daria todo por serlo, daría todo por que a mi cayera todo lo que t cae a ti,
+                     hay cosas que quisiera que fueran posible, extraño verte, minimo en algunas cosas hay algún porcentaje de posibilidad.
+                     
+                     No me extrañes❤
+
+                   </h2>
+        
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
